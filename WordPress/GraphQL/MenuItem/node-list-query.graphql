@@ -34,6 +34,7 @@ query NODE_LIST_QUERY($first: Int!, $after: String) {
       path
       target
       title
+      uri
       url
       __typename
     }

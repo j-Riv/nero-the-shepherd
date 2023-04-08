@@ -6,6 +6,19 @@ query NODE_LIST_QUERY($first: Int!, $after: String) {
 
       author {
         node {
+          avatar {
+            default
+            extraAttr
+            forceDefault
+            foundAvatar
+            height
+            rating
+            scheme
+            size
+            url
+            width
+          }
+
           databaseId
           email
           id

@@ -5,6 +5,19 @@ query PREVIEW_QUERY($id: ID!) {
 
     author {
       node {
+        avatar {
+          default
+          extraAttr
+          forceDefault
+          foundAvatar
+          height
+          rating
+          scheme
+          size
+          url
+          width
+        }
+
         databaseId
         email
         id

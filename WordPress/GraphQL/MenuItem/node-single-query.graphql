@@ -33,6 +33,7 @@ query SINGLE_CONTENT_QUERY($id: ID!) {
     path
     target
     title
+    uri
     url
     __typename
   }

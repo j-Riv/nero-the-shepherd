@@ -33,6 +33,7 @@ query PREVIEW_QUERY($id: ID!) {
     path
     target
     title
+    uri
     url
     __typename
   }
