@@ -7,7 +7,7 @@ module.exports = {
     author: `José A. Rivera`,
     description: `Eat, Sleep, Destroy, Repeat...`,
     siteUrl: `https://nerotheshepherd.com`,
-    lang: `en`
+    lang: `en`,
   },
   plugins: [
     {
@@ -53,9 +53,9 @@ module.exports = {
       options: {
         url: process.env.WP_URL || `https://api.nerotheshepherd.com/graphql`,
         type: {
-          // Post: {
-          //   limit: 200
-          // },
+          Post: {
+            limit: 500,
+          },
           MediaItem: {
             localFile: {
               requestConcurrency: 1,

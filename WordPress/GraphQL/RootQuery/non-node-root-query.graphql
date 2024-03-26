@@ -47,6 +47,7 @@ query NON_NODE_QUERY {
   schemaMd5
 
   viewer {
+    __typename
     id
   }
 
